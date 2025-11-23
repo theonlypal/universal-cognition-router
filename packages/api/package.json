@@ -1,0 +1,19 @@
+{
+  "name": "@ucr/api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ../../tsconfig.json --outDir dist --rootDir src",
+    "lint": "tsc -p ../../tsconfig.json --noEmit",
+    "dev": "node --enable-source-maps dist/index.js",
+    "start": "node --enable-source-maps dist/index.js"
+  },
+  "dependencies": {
+    "express": "4.19.2",
+    "ws": "8.17.1",
+    "@ucr/cognition": "workspace:*",
+    "body-parser": "1.20.2"
+  }
+}
