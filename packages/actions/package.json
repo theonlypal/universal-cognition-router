@@ -1,0 +1,14 @@
+{
+  "name": "@ucr/actions",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/http.js",
+  "types": "dist/http.d.ts",
+  "scripts": {
+    "build": "tsc -p ../../tsconfig.json --outDir dist --rootDir src",
+    "lint": "tsc -p ../../tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "fs-extra": "11.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@ucr/agents",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/shell/shell-agent.js",
+  "types": "dist/shell/shell-agent.d.ts",
+  "scripts": {
+    "build": "tsc -p ../../tsconfig.json --outDir dist --rootDir .",
+    "lint": "tsc -p ../../tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "playwright": "1.43.1"
+  }
+}

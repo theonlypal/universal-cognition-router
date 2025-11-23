@@ -1,0 +1,16 @@
+{
+  "name": "ucr-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Universal Cognition Router monorepo",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "lint": "pnpm -r run lint",
+    "dev": "pnpm -r run dev"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.30",
+    "typescript": "5.4.5",
+    "pnpm": "9.0.6"
+  }
+}

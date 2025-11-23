@@ -1,0 +1,21 @@
+{
+  "name": "@ucr/ingestion",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/pdf.js",
+  "types": "dist/pdf.d.ts",
+  "scripts": {
+    "build": "tsc -p ../../tsconfig.json --outDir dist --rootDir src",
+    "lint": "tsc -p ../../tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "1.1.0",
+    "fluent-ffmpeg": "2.1.2",
+    "mailparser": "3.9.0",
+    "imapflow": "1.0.136",
+    "openai": "4.37.0",
+    "pdf-parse": "1.1.1",
+    "playwright": "1.43.1",
+    "tesseract.js": "5.0.4"
+  }
+}
